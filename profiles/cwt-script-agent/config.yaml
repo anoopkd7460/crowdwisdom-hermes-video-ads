@@ -1,0 +1,17 @@
+model:
+  provider: openrouter
+  default: google/gemini-2.5-flash
+  base_url: ""
+  api_mode: chat_completions
+
+agent:
+  reasoning_effort: medium
+
+terminal:
+  cwd: "${workspaceFolder}"
+
+toolsets:
+  - file
+  - terminal
+  - web
+  - kanban
