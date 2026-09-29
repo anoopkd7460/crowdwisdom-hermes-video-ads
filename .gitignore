@@ -8,3 +8,4 @@ artifacts/scripts/unique_data_context.json
 artifacts/video/final/*
 data/unique_data/*
 !data/unique_data/README.md
+crowdwisdom_video_ads/
