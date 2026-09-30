@@ -45,7 +45,7 @@ def ask(prompt, temperature=0.8):
             "X-OpenRouter-Title": "CrowdWisdomTrading Video Ads Agent",
         },
         json=payload,
-        timeout=120,
+        timeout=300,
     )
     r.raise_for_status()
     return _json(r.json()["choices"][0]["message"]["content"])

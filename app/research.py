@@ -17,7 +17,7 @@ NICHES = [
 ]
 
 def ads():
-    raw = run_meta_ads(NICHES, limit=100)
+    raw = run_meta_ads(NICHES, limit=1)
     save_json(ARTIFACTS / "ads/meta_ads_raw.json", raw)
 
     ads = [normalize_ad(x) for x in raw]

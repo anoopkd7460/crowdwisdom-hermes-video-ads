@@ -1,5 +1,3 @@
-.venv/
-.env
 __pycache__/
 *.pyc
 artifacts/ads/meta_ads_raw.json
@@ -8,4 +6,16 @@ artifacts/scripts/unique_data_context.json
 artifacts/video/final/*
 data/unique_data/*
 !data/unique_data/README.md
+
+# Virtual environment
 crowdwisdom_video_ads/
+
+# Environment secrets
+.venv/
+.env
+
+# External OpenMontage repository
+OpenMontage/
+
+# Generated artifacts
+artifacts/
